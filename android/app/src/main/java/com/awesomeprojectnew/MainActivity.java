@@ -1,5 +1,9 @@
 package com.awesomeprojectnew;
 
+import android.content.Intent;
+import android.os.Bundle;
+
+import com.facebook.react.HeadlessJsTaskService;
 import com.facebook.react.ReactActivity;
 
 public class MainActivity extends ReactActivity {
@@ -11,5 +15,19 @@ public class MainActivity extends ReactActivity {
     @Override
     protected String getMainComponentName() {
         return "AwesomeProjectNew";
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        /**
+         * 调用headlessJs 失败
+         */
+//        Intent service = new Intent(this, MyTaskService.class);
+//        Bundle bundle = new Bundle();
+//        bundle.putString("foo", "bar");
+//        service.putExtras(bundle);
+//        getApplicationContext().startService(service);
+//        HeadlessJsTaskService.acquireWakeLockNow(this);
     }
 }

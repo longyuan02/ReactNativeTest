@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/dragonfly/Documents/workspace/AndroidDemo/react-native/AwesomeProjectNew/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-az/values-az.xml",
+            "outputFile": "/Users/dragonfly/Documents/workspace/AndroidDemo/react-native/ReactNative_LoadFile/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-az/values-az.xml",
             "map": [
                 {
                     "source": "/Users/dragonfly/.gradle/caches/transforms-2/files-2.1/4facd6ee0f558aaec090b5152a8f7ffd/res/values-az/values-az.xml",

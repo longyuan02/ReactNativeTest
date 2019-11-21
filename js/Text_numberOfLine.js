@@ -19,7 +19,12 @@ render(){
         {/* <Text style={[styles.baseText,{height:40,width:100}]} onLayout={this._onLayout} onPress={this._onPress}>onlayout</Text> */}
        
        {/* <TextInput autoCapitalize='words' style={{width:100,height:40,borderColor: 'gray'}}>sdssd</TextInput> */}
-        <TextInput  style={{ height: 40, borderColor: 'gray', borderWidth: 1 }} autoCapitalize='characters'/>
+       <View style={{backgroundColor:'#FFF00'}}>
+       <TextInput  style={{ height: 40, borderColor: 'gray', borderWidth: 1 }} autoCapitalize='words'/>
+       </View>
+       <View style={{backgroundColor:'#FFF00'}}>
+       <TextInput autoCapitalize='words'></TextInput>
+       </View>
     </View>);
 }
 }

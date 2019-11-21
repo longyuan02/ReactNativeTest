@@ -1,4 +1,4 @@
-#Wed Nov 20 14:42:26 CST 2019
-base.0=/Users/dragonfly/Documents/workspace/AndroidDemo/react-native/AwesomeProjectNew/android/app/build/intermediates/transforms/dexMerger/debug/0
+#Thu Nov 21 18:12:20 CST 2019
+base.0=/Users/dragonfly/Documents/workspace/AndroidDemo/react-native/ReactNative_LoadFile/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
